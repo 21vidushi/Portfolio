@@ -21,11 +21,11 @@ const Projects = () => {
           des=" Dynamic portfolio showcasing my creative projects and expertise in Web Development. Explore my work, skills, education, experience and achievements in a visually engaging and user-friendly interface"
           src={projectOne} gitlink={"www.google.com"} deploylink={"www.google.com"}
         />
-        // <ProjectsCard
-        //   title="Job Portal: JobZEE"
-        //   des=" A comprehensive job portal featuring distinct profiles for both job seekers and employers. Employers have the ability to post and remove job listings, while job seekers can easily apply for available positions"
-        //   src={projectTwo} gitlink={"https://github.com/21vidushi/Job-portal"} deploylink={"https://job-portal-nine-alpha.vercel.app/"}
-        // />
+        <ProjectsCard
+          title="Job Portal: JobZEE"
+          des=" A comprehensive job portal featuring distinct profiles for both job seekers and employers. Employers have the ability to post and remove job listings, while job seekers can easily apply for available positions"
+          src={projectTwo} gitlink={"https://github.com/21vidushi/Job-portal"} deploylink={"https://job-portal-nine-alpha.vercel.app/"}
+        />
        
          
       
