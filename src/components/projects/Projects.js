@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo} from "../../assets/index";
+import { projectOne, projectTwo,projectThree} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -25,6 +25,11 @@ const Projects = () => {
           title="Job Portal: JobZEE"
           des=" A comprehensive job portal featuring distinct profiles for both job seekers and employers. Employers have the ability to post and remove job listings, while job seekers can easily apply for available positions"
           src={projectTwo} gitlink={"https://github.com/21vidushi/Job-portal"} deploylink={"https://job-portal-nine-alpha.vercel.app/"}
+        />
+        <ProjectsCard
+          title="Chat Web App"
+          des="A realtime chat application implemented using socket. It have the feature of live chat along with setting avatar functionality. Also includes authentication feature."
+          src={projectThree} gitlink={"https://github.com/21vidushi/Web-Chat-App"} deploylink={"https://web-chat-app-bui7.vercel.app/"}
         />
        
          
