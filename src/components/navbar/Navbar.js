@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                Hey! I am a pre final year CSE student pursuing B.TECH from KIET group of institutions, Ghaziabad with overall CGPA of 8.86. My area of expertise is in C++ programming. I've tackled over 200 Data Structures and Algorithms problems on LeetCode and CodeChef, demonstrating my dedication to mastering problem-solving skills. I'm passionate about Full Stack development, and built some impactful projects using the MERN stack. Eager to leverage my expertise and contribute effectively to relevant endeavors..
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -76,13 +74,11 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <FaFacebookF />
+                  <a href='https://www.linkedin.com/in/vidushi-singhal-ba3980226/'> <FaLinkedinIn /></a>
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
+                  <a href='https://www.instagram.com/its_vidsinghal_/'><FaInstagram /></a> 
+
                   </span>
                 </div>
               </div>
